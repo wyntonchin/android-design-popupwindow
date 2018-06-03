@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:id="@+id/list_pop"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorAccent"
+        android:listSelector="#191919"
+        android:dividerHeight="1dp"
+        android:background="#22292c"
+        android:layout_marginEnd="5dp"/>
+<!--    android:layout_alignParentRight="true"
+    android:layout_marginRight="5dp"-->
+</RelativeLayout>
